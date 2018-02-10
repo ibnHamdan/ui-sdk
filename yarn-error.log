@@ -1,0 +1,52 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add @progress/keno-theme-default
+
+PATH: 
+  /usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/mysql/bin:/Users/ibnHamdan/bin:/Users/ibnHamdan/bin
+
+Yarn version: 
+  0.16.1
+
+Node version: 
+  7.10.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "ui-sdk",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+bower manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@progress%2fkeno-theme-default: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/0.16.1/libexec/lib/node_modules/yarn/lib/util/request-manager.js:294:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/0.16.1/libexec/lib/node_modules/yarn/node_modules/request/request.js:187:22)
+      at emitTwo (events.js:106:13)
+      at Request.emit (events.js:194:7)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/0.16.1/libexec/lib/node_modules/yarn/node_modules/request/request.js:1048:10)
+      at emitOne (events.js:96:13)
+      at Request.emit (events.js:191:7)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/0.16.1/libexec/lib/node_modules/yarn/node_modules/request/request.js:969:12)
+      at emitNone (events.js:91:20)
+      at IncomingMessage.emit (events.js:188:7)

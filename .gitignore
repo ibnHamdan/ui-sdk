@@ -1,0 +1,12 @@
+*.tmp
+*.gpState
+*.pdb
+*.suo
+*.swp
+*.user
+*.mdb
+obj/
+bin/
+dist/
+.DS_Store
+node_modules
